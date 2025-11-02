@@ -1,0 +1,30 @@
+*{
+    margin-top: 0px;
+    margin-bottom : 30px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding : 0px;
+}
+body{
+    background-color: #EDEDED;
+}
+
+div{
+    background-color: white;
+    border-radius: 15px;
+}
+#frist{
+    text-align: center;
+    background-color: aqua;
+}
+.second{
+    margin-top: 0px;
+    background-color: aqua;
+}
+
+.imagecontainer{
+    height: 150px;
+    width:150px;
+   border-radius: 100%;
+
+}
