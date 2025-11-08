@@ -6,20 +6,25 @@
     padding : 0px;
 }
 body{
+    padding-right: 30px;
+    padding-left: 30px;
     background-color: #EDEDED;
 }
 
 div{
     background-color: white;
     border-radius: 15px;
+    padding:20px;
 }
 #frist{
     text-align: center;
     background-color: aqua;
 }
 .second{
-    margin-top: 0px;
+    text-align: center;
     background-color: aqua;
+    margin-top: 0px;
+    padding: 30px 0;
 }
 
 .imagecontainer{
@@ -27,4 +32,29 @@ div{
     width:150px;
    border-radius: 100%;
 
+}
+.sub{
+    background-color: aqua;
+    color: aliceblue;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+div p, div h2, div li, div td, div th {
+    padding-left: 20px;
+}
+table caption {
+    font-weight: bold;      
+    font-size: 20px; 
+    margin-bottom: 10px;   
+    text-align: center;    
+}
+table {
+    width: 50%;
+    border-spacing: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    border-collapse: collapse; 
 }
